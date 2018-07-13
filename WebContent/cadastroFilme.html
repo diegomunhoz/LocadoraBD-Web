@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Cadastro de Filme</title>
+	</head>
+	<body>
+		<form action="grava_filme">
+		<h2>Cadastro de Filme</h2>
+		<table border="0">
+			<tr>
+				<td>
+					Nome:
+				</td>
+				<td>
+					<input type="text" name="nomeDoFilme"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Valor:
+				</td>
+				<td>
+					<input type="text" name="valorDoFilme"/>
+				</td>
+			</tr>	
+			<tr>
+				<td>
+					Disponível:
+				</td>
+				<td>
+					<input type="radio" name="disponivelDoFilme" value="SIM" checked/>SIM
+					<input type="radio" name="disponivelDoFilme" value="NAO" checked/>NÃO
+				</td>
+			</tr>	
+			<tr>
+				<td>
+					Gênero:
+				</td>
+				<td>
+					<input type="text" name="generoDoFilme"/>
+				</td>
+			</tr>
+			<tr>
+			<tr>
+			</tr>
+				<td>
+					<input type="submit" value="Salvar dados">
+				</td>
+			</tr>
+		</table>
+		<h4><a href="http://localhost:8080/LocadoraBD">Página Inicial</a></h4>
+		</form>
+	</body>
+</html>
